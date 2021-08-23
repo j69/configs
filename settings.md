@@ -19,10 +19,6 @@
 * turn off code folding
 * turn off code folding for imports
 
-### Font
-* 		font - Menlo
-* size 		- 18
-
 ### color scheme
 [My Material One Dark](Material One Dark69.icls)
 
