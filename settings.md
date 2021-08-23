@@ -1,6 +1,6 @@
 # Pycharm settings
 
-# custom VM options
+## custom VM options
 -Dproject.tree.structure.show.url=false
 
 ## Appearance
@@ -9,8 +9,7 @@
 ## Keymap
 * Window/editor tab/reopened closed - cmnd+shift+T
 
-## Editor
-### General
+## General
 * change font size with wheel
 * turn off drag and drop
 * show virtual space at bottom
@@ -19,13 +18,9 @@
 * turn off code folding
 * turn off code folding for imports
 
-### color scheme
-[My Material One Dark](Material One Dark69.icls)
-
-### inspections
+## inspections
 * turn off HTML, JSON
-
-### Emmet
+## Emmet
 * turn off Emmet
 
 ## Plugins
