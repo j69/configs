@@ -1,2 +1,2 @@
-# pycharm_ce
-my configuration for Pycharm CE
+# pycharm
+my configuration for Pycharm
