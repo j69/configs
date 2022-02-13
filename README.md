@@ -1,1 +1,1 @@
-various editors configurations
+various configurations
