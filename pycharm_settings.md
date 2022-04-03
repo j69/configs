@@ -4,7 +4,7 @@
 -Dproject.tree.structure.show.url=false
 
 ## Appearance
-* Drag and drop with ALT
+* enable Drag and drop with ALT
 
 ## Keymap
 * Window/editor tab/reopened closed - cmnd+shift+T
@@ -18,8 +18,13 @@
 * turn off code folding
 * turn off code folding for imports
 
+## editor tabs
+* disable show file icon and extension
+* tab limit -> 20
+
 ## inspections
 * turn off HTML, JSON
+* 
 ## Emmet
 * turn off Emmet
 
