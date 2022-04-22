@@ -1,15 +1,16 @@
-## Set Up IntelliJ for Scala Development
-* install Git, Scala, JDk8 in Windows
+## IntelliJ for Scala
+* install Git, Scala, JDk8
 
 * Go to Settings -> ProjectStructure -> choose SDK = 1,8
-* Go to Settings -> Project Structure -> Project Settings -> Modules and ...
+* * Go to Settings -> Project Structure -> Project Settings -> Libraries -> Add -> Scala SDK
+* Go to Settings -> Project Structure -> Project Settings -> Modules and Mark Directory:
 
-1. Mark Directory **app** → as Sources
-2. Mark Directory **conf** → as Resources
-3. Mark Directory **test** → as Tests
-5. Mark Directory **target** → as Generated Sources
+1. **app** → as Sources
+2. **conf** → as Resources
+3. **test** → as Tests
+5. **target** → as Generated Sources
 
-* Go to Settings -> Project Structure -> Project Settings -> Libraries -> Add -> Scala SDK
+# Other stuff
 
 ## Appearance
 * enable Drag and drop with ALT
