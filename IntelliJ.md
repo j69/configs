@@ -10,8 +10,6 @@
 3. **test** → as Tests
 5. **target** → as Generated Sources
 
-# Other stuff
-
 ## Appearance
 * enable Drag and drop with ALT
 
@@ -32,10 +30,3 @@
 ## inspections
 * turn off HTML, JSON
 * turn off Emmet
-
-## Plugins
-* git
-* Yaml
-* Requirements
-* power mode 2
-* Code Glance Pro
