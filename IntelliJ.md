@@ -30,3 +30,6 @@
 ## inspections
 * turn off HTML, JSON
 * turn off Emmet
+
+## Plugins
+![scalaintellijplugins](scalaintellijplugins.png)
