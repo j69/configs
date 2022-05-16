@@ -1,5 +1,15 @@
+## Useful tricks
 
-## Config
+## Generate a random password, put it in ~/.bashrc:
+```
+randpw(){ < /dev/urandom tr -dc _A-Z-a-z-0-9! | head -c${1:-16};echo;}
+```
+
+
+
+
+
+## Old Ubuntu Config
 * sudo apt install gnome-session-flashback
 * sudo apt install gnome-tweaks
 
