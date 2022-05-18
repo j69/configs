@@ -13,6 +13,7 @@
 ## Appearance
 * enable Drag and drop with ALT
 * Mainmenu + Navigation + Members in Navigation + StatusBAr
+* turn off Line NUmbers
 
 ## Keymap
 * Window/editor tab/reopened closed - cmnd+shift+T
