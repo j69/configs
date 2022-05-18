@@ -12,6 +12,7 @@
 
 ## Appearance
 * enable Drag and drop with ALT
+* Mainmenu + Navigation + Members in Navigation + StatusBAr
 
 ## Keymap
 * Window/editor tab/reopened closed - cmnd+shift+T
@@ -30,6 +31,25 @@
 ## inspections
 * turn off HTML, JSON
 * turn off Emmet
+
+## custom VM options
+```
+-Dproject.tree.structure.show.url=false
+-XX:MetaspaceSize=128M
+-XX:MaxMetaspaceSize=512m
+-XX:+AlwaysPreTouch
+-Xms128m
+-Xmx2048m
+-XX:ReservedCodeCacheSize=512m
+-XX:+UseG1GC
+-XX:+UseStringDeduplication
+-XX:AutoBoxCacheMax=20000
+-ea
+-Dsun.io.useCanonCaches=false
+-Dsun.awt.keepWorkingSetOnMinimize=true
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:-OmitStackTraceInFastThrow
+```
 
 ## Plugins
 ![scalaintellijplugins](scalaintellijplugins.png)
