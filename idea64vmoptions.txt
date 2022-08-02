@@ -1,4 +1,3 @@
-```
 -Dproject.tree.structure.show.url=false
 -Xms128m
 -Xmx2048m
@@ -72,10 +71,3 @@ Xmx1536m
 -Dsun.io.useCanonCaches=false
 -Djava.net.preferIPv4Stack=true
 -ea
-
-
-
-
-
-
-```
