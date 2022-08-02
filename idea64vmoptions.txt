@@ -1,7 +1,3 @@
--Dproject.tree.structure.show.url=false
--Xms128m
--Xmx2048m
-
 # ============================================ 
 # Configuration items (switches)
 # ============================================
