@@ -14,6 +14,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'tpope/vim-surround'
+Plugin 'junegunn/goyo.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -38,8 +39,6 @@ autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,
 
 syntax on
 
-set nu "Enable numeric strings
-set mouse=a
 set termencoding=utf-8
 set backspace=indent,eol,start whichwrap+=<,>,[,]
 set wrap
@@ -63,27 +62,6 @@ set ruler
 set hidden
 nnoremap <C-N> :bnext<CR>
 nnoremap <C-P> :bprev<CR>
-
-"MacVim´s  Tabs switch by CMD+number
-if has("gui_macvim")
-  " Press Ctrl-Tab to switch between open tabs (like browser tabs) to 
-  " the right side. Ctrl-Shift-Tab goes the other way.
-  noremap <C-Tab> :tabnext<CR>
-  noremap <C-S-Tab> :tabprev<CR>
-
-  " Switch to specific tab numbers with Command-number
-  noremap <D-1> :tabn 1<CR>
-  noremap <D-2> :tabn 2<CR>
-  noremap <D-3> :tabn 3<CR>
-  noremap <D-4> :tabn 4<CR>
-  noremap <D-5> :tabn 5<CR>
-  noremap <D-6> :tabn 6<CR>
-  noremap <D-7> :tabn 7<CR>
-  noremap <D-8> :tabn 8<CR>
-  noremap <D-9> :tabn 9<CR>
-  " Command-0 goes to the last tab
-  noremap <D-0> :tablast<CR>
-endif
 
 set guifont=Monaco:h18
 colorscheme OceanicNext
