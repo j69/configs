@@ -13,7 +13,6 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'flazz/vim-colorschemes'
-Plugin 'tpope/vim-surround'
 Plugin 'junegunn/goyo.vim'
 Plugin 'mhinz/vim-startify'
 
@@ -23,11 +22,11 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 # Python settings
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set smarttab
 set expandtab "Spaces as tabs
-set softtabstop=4 "4 spaces in tab
+set softtabstop=2 "2 spaces in tab
 set autoindent
 
 syntax on
