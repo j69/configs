@@ -1,12 +1,44 @@
 ## Useful tricks
 
 ## Generate a random password, put it in ~/.bashrc:
-```
+``
 randpw(){ < /dev/urandom tr -dc _A-Z-a-z-0-9! | head -c${1:-16};echo;}
+``
+## Simple Internet browser
+``
+hh http://translate.google.com
+``
+## Show diff
+``
+diff Dockerfile.dev Dockerfile.prod -y
+``
+## Google Translate cmd
+```
+sudo apt install translate-shell
+trans bitch
+trans -brief Vittu
+trans file:///home/sk/greet.txt
+trans -R
+trans :en vitttu
+trans :en "Mulla ei ole ..."
+trans :en bitch
+trans -d -v
+```
+## RSS in cmd
+```
+* sudo apt-get install newsboat
+* newsboat
+* vim ~/.newsboat/urls
+* newsboat -r
+```
+## FileMAnager in cmd
+```
+* sudo apt install nnn
+* nnn and run like a wind!
+* press ? for help
 ```
 
-
-## Old Ubuntu Config
+# Old Ubuntu Config
 * sudo apt install gnome-session-flashback
 * sudo apt install gnome-tweaks
 
