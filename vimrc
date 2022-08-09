@@ -15,6 +15,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'junegunn/goyo.vim'
 Plugin 'mhinz/vim-startify'
+Plugin 'vim-airline/vim-airline'
+Plugin 'mg979/vim-visual-multi'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -56,4 +58,4 @@ nnoremap <C-P> :bprev<CR>
 
 set guifont=Monaco:h18
 colorscheme OceanicNext
-autocmd VimEnter * Goyo
+" autocmd VimEnter * Goyo
