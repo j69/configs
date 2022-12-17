@@ -10,6 +10,10 @@ install [cool desktop saver](//github.com/pedrommcarrasco/Brooklyn/releases/down
 * Reduce transparency
 * Reduce motion
 
+## Remove shit
+* cd /Applications
+* sudo rm -rf Stickies.app Photos.app Mail.app Maps.app Contacts.app Reminders.app Dictionary.app Chess.app Messages.app Photo\ Booth.app Siri.app Time\ Machine.app Photo Booth.app
+
 ## Disable NotificationCenter
 * csrutil disable
 * launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist
