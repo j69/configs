@@ -29,6 +29,7 @@ install [cool desktop saver](//github.com/pedrommcarrasco/Brooklyn/releases/down
 defaults write -g com.apple.mouse.scaling 12.0
 
 ## Usefuls
+* defaults write -g CSUIDisable32BitWarnings -boolean TRUE
 * defaults write com.apple.finder QLEnableTextSelection -bool TRUE
 * defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 * defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
