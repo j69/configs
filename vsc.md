@@ -6,6 +6,9 @@
 * ⇧⌥↓ / ⇧⌥↑ Copy line down/up
 
 ## Plugins:
+* WSL
+* Node.js
+
 * Better Comments
 * Dracula Official (soft theme)
 * filesize
