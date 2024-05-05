@@ -1,18 +1,6 @@
-## Keymap
-* Window/editor tab/reopened closed - cmnd+shift+T
-
-## General
-* change font size with wheel
-* turn off drag and drop
-* turn off breadcrumbs
-* turn off code folding
-
-## editor tabs
-* tab limit -> 20
-
-## inspections
-* turn off HTML, JSON
-* turn off Emmet
+## Other
+* reopened closed tabs  - cmnd+shift+T
+* turn off Emmet, HTML, JSON, CSS
 
 ## custom VM options
 ```
