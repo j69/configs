@@ -1,10 +1,10 @@
 # Visual Stusio Code settings
 
 ## Plugins:
-* Node.js
+* Aws toolkit
+* eslint
+* wsl
 * Dracula Official (soft theme)
-* filesize
-* Python
 
 ## Settings
 * editor.cursorSmoothCaretAnimation: true
