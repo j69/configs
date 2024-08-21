@@ -7,9 +7,6 @@
 
 install [cool desktop saver](//github.com/pedrommcarrasco/Brooklyn/releases/download/1.0.0/Brooklyn.saver.zip)
 
-* Reduce transparency
-* Reduce motion
-
 ## Remove shit
 * cd /Applications
 * sudo rm -rf Stickies.app Photos.app Mail.app Maps.app Contacts.app Reminders.app Dictionary.app Chess.app Messages.app Photo\ Booth.app Siri.app Time\ Machine.app Photo Booth.app
@@ -32,8 +29,6 @@ defaults write -g com.apple.mouse.scaling 12.0
 * defaults write -g CSUIDisable32BitWarnings -boolean TRUE
 * defaults write com.apple.finder QLEnableTextSelection -bool TRUE
 * defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
-* defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
-* defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
 ## Abandoned trash:
 * ~/Library/Preferences
