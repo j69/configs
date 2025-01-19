@@ -9,6 +9,7 @@ install [cool desktop saver](//github.com/pedrommcarrasco/Brooklyn/releases/down
 
 ## Catalina coonect MacOs system files
 * sudo mount -uw /
+* cd /System/Applications
 
 ## Remove shit
 * cd /Applications
