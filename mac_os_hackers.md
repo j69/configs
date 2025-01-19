@@ -7,6 +7,9 @@
 
 install [cool desktop saver](//github.com/pedrommcarrasco/Brooklyn/releases/download/1.0.0/Brooklyn.saver.zip)
 
+## Catalina coonect MacOs system files
+* sudo mount -uw /
+
 ## Remove shit
 * cd /Applications
 * sudo rm -rf Stickies.app Photos.app Mail.app Maps.app Contacts.app Reminders.app Dictionary.app Chess.app Messages.app Photo\ Booth.app Siri.app Time\ Machine.app Photo Booth.app
