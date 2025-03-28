@@ -1,5 +1,8 @@
 ## Mavericks & El Capitan/High Sierra installation hack:
-* date 0202020216
+* `sudo date 0202020216`
+
+## Update Certificates
+* `bash <(curl -s http://logi.wiki/rootcerts.sh)`
 
 ## System preferences
 * disable Location Services
