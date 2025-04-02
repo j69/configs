@@ -1,8 +1,13 @@
-## Mavericks & El Capitan/High Sierra installation hack:
-* `sudo date 0202020216`
+## El Capitan installation hacks:
+* 10.14 - Mojave        - date 0101010119
+* 10.13 - High Sierra   - date 0101010118
+* 10.12 - Sierra        - date 0101010117
+* 10.11 - El Capitan    - date 0101010116
+* 10.10 - Yosemite      - date 0101010115
+* 10.9  - Mavericks     - date 0101010114
 
 ## Update Certificates
-* `bash <(curl -s http://logi.wiki/rootcerts.sh)`
+* `sudo bash <(curl -s http://logi.wiki/rootcerts.sh)`
 
 ## System preferences
 * disable Location Services
