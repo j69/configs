@@ -31,6 +31,15 @@ install [cool desktop saver](//github.com/pedrommcarrasco/Brooklyn/releases/down
 * launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist
 * killall NotificationCenter
 
+## Fix Broken App
+* sudo xattr -r -c YourApp.app
+
+## Disable Gatekeeper OSX 10...
+* sudo spctl --master-disable
+
+## Disable Gatekeeper macOS 11++
+* sudo spctl --global-disable
+
 ## Disable Spotlight
 * mdutil -a -i off
 * sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
