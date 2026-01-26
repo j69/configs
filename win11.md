@@ -10,3 +10,7 @@
 
 * taskkill /f /im explorer.exe
 * start explorer.exe
+
+## Running the latest release of Chris Titus WinUtil
+You will first need to start a Powershell terminal as Admin.
+* irm "https://christitus.com/win" | iex
