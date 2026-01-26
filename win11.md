@@ -11,6 +11,9 @@
 * taskkill /f /im explorer.exe
 * start explorer.exe
 
+## FIX error "The server returned the link"
+* reg edit HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\ValidateAdminCodeSignatures "1" -> "0" 
+
 ## Running the latest release of Chris Titus WinUtil
 You will first need to start a Powershell terminal as Admin.
 * irm "https://christitus.com/win" | iex
