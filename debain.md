@@ -5,6 +5,10 @@
 
 ## Remove Notification center
 * gsettings set org.gnome.gnome-flashback notifications false
+* 
+## Remove Homae and Trash desktop icons
+* gsettings set org.gnome.gnome-flashback.desktop.icons show-home false
+* gsettings set org.gnome.gnome-flashback.desktop.icons show-trash false
 
 ## Install Java Development Kit
 * sudo apt-get install openjdk-25-jdk
