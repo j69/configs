@@ -15,3 +15,6 @@
 
 ### If you already have more than one Java version installed, you can configure the Default Java version that you want to use using the command update-alternatives:
 * update-alternatives --config java
+
+## turn off Gnome Animations
+* the setting is now included under "Settings" - "Accessibility" - "Seeing" - "Animation effects. 
