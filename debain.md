@@ -18,3 +18,13 @@
 
 ## turn off Gnome Animations
 * the setting is now included under "Settings" - "Accessibility" - "Seeing" - "Animation effects. 
+
+## Disable unneeded services: Bluth, printing, lan sharing
+* sudo systemctl disable bluetooth.service
+* sudo systemctl disable cups.service
+* sudo systemctl disable avahi-daemon.service
+
+## Completely remove Bluetooth
+* sudo apt-get purge blueman bluez-utils bluez bluetooth
+* sudo apt-get autoremove
+* sudo apt-get autoclean
