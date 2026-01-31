@@ -34,3 +34,6 @@
 * sudo tar xfv telegram.tar.xz -C /opt/
 * sudo ln -s /opt/Telegram/Telegram /usr/local/bin/telegram
 * telegram
+
+## Nautilus right mouse - context menu
+* touch ~/Templates/new_file.md
