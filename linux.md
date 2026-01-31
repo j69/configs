@@ -1,13 +1,3 @@
-# Debian 13 Settings
-
-### Resurrect old good second absolute minimum GNOME-2 desktop.
-* sudo apt-get install gnome-session-flashback
-* sudo apt-get install gnome-tweaks
-### logout and select the new desktop from the login screen
-
-### disable indexing
-* sudo apt-get purge apt-xapian-index.
------------------
 ## Useful tricks
 
 ## Generate a random password, put it in ~/.bashrc:
