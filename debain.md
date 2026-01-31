@@ -28,3 +28,9 @@
 * sudo apt-get purge blueman bluez-utils bluez bluetooth
 * sudo apt-get autoremove
 * sudo apt-get autoclean
+
+## Install Telegram
+* wget https://telegram.org/dl/desktop/linux -O telegram.tar.xz
+* sudo tar xfv telegram.tar.xz -C /opt/
+* sudo ln -s /opt/Telegram/Telegram /usr/local/bin/telegram
+* telegram
