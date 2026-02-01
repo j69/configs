@@ -35,11 +35,11 @@
 * sudo ln -s /opt/Telegram/Telegram /usr/local/bin/telegram
 * telegram
 
-## Set Thunar File manager
-* sudo apt-get install thunar
-* xdg-mime default Thunar.desktop inode/directory
-
 ##  right mouse - context menu
 * touch ~/Templates/new_file.md
+ 
+## Set Thunar File manager - Debian Xfce4 Minimal Install 
+* sudo apt install xfce4
+* choose lightdm
+* logout 
 
-* 
