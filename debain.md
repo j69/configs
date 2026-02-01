@@ -35,5 +35,11 @@
 * sudo ln -s /opt/Telegram/Telegram /usr/local/bin/telegram
 * telegram
 
-## Nautilus right mouse - context menu
+## Set Thunar File manager
+* sudo apt-get install thunar
+* xdg-mime default Thunar.desktop inode/directory
+
+##  right mouse - context menu
 * touch ~/Templates/new_file.md
+
+* 
