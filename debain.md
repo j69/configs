@@ -41,5 +41,12 @@
 ## Set Thunar File manager - Debian Xfce4 Minimal Install 
 * sudo apt install xfce4
 * choose lightdm
-* logout 
+* logout
+
+## install mouse in console
+* sudo apt-get install gpm
+* sudo /etc/init.d/gpm start
+* or make it default autostart by
+* rc-update add gpm default
+* systemctl enable gpm --now
 
