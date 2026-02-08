@@ -44,3 +44,8 @@
 * or make it default autostart by
 * rc-update add gpm default
 * systemctl enable gpm --now
+
+## Fix "user is not in the sudoers file"
+* login as root
+* sudo adduser [your username] sudo
+* restart
