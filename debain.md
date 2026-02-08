@@ -1,6 +1,6 @@
 # Debian 13 Settings
 
-## Install old old good second absolute minimum GNOME-2 desktop.
+## Install old old good second absolute minimum GNOME-2 desktop or XFCE
 * sudo apt-get install gnome-session-flashback
 
 ## Remove Notification center
@@ -37,11 +37,6 @@
 
 ##  right mouse - context menu
 * touch ~/Templates/new_file.md
- 
-## Set Thunar File manager - Debian Xfce4 Minimal Install 
-* sudo apt install xfce4
-* choose lightdm
-* logout
 
 ## install mouse in console
 * sudo apt-get install gpm
@@ -49,4 +44,3 @@
 * or make it default autostart by
 * rc-update add gpm default
 * systemctl enable gpm --now
-
