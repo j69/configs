@@ -13,13 +13,7 @@
 * sudo apt-get autoremove
 * sudo apt-get autoclean
 
-## Install Telegram
-* wget https://telegram.org/dl/desktop/linux -O telegram.tar.xz
-* sudo tar xfv telegram.tar.xz -C /opt/
-* sudo ln -s /opt/Telegram/Telegram /usr/local/bin/telegram
-* telegram
-
-##  right mouse - context menu
+## modify new file context menu (right mouse) 
 * touch ~/Templates/new_file.md
 
 ## install mouse in console
@@ -43,3 +37,12 @@
 
 ## Also you can install Software center
 * sudo apt install gnome-software
+
+## Install soft
+* sudo apt install kate apostrophe geany sublime-text
+
+## Install Telegram
+* wget https://telegram.org/dl/desktop/linux -O telegram.tar.xz
+* sudo tar xfv telegram.tar.xz -C /opt/
+* sudo ln -s /opt/Telegram/Telegram /usr/local/bin/telegram
+* telegram
