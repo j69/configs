@@ -15,6 +15,12 @@
 ## Add Panel Plugins
 * sudo apt install xfce4-pulseaudio-plugin xfce4-eyes-plugin xfce4-xkb-plugin
 
+## Speed up XFCE
+* Settings _--> Windows Manager tweaks -> disable Compositor
+
+## Remove power-manager and audio panel
+* sudo apt purge xfce4-power-manager
+
 ## Disable unneeded services: Bluth, printing, lan sharing
 * sudo systemctl list-unit-files | grep enabled
 * sudo systemctl disable bluetooth.service
