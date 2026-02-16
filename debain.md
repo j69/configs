@@ -34,7 +34,7 @@
 * sudo apt install aisleriot gnome-chess
 
 ## Install editors
-* sudo apt install kate apostrophe geany sublime-text
+* sudo apt install kate apostrophe geany sublime-text neovim
 
 ## Install Java Development Kit
 * sudo apt-get install openjdk-25-jdk
