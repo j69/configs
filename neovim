@@ -11,8 +11,6 @@ local Plug = vim.fn['plug#']
 vim.call('plug#begin')
 
 Plug('flazz/vim-colorschemes')
-Plug('kyazdani42/nvim-tree.lua')
-Plug('kyazdani42/nvim-web-devicons')
 
 vim.call('plug#end')
 
@@ -29,32 +27,3 @@ vim.opt.autoindent = true
 
 vim.opt.fileformat = "unix"
 vim.cmd 'colorscheme OceanicNext'
-" ---------------------------------
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
-vim.opt.termguicolors = true
-require("nvim-tree").setup()
-
--- OR setup with some options
-"require("nvim-tree").setup({
-"  sort = {
-"    sorter = "case_sensitive",
-"  },
-"  view = {
-"    width = 30,
-"  },
-"  renderer = {
-"    group_empty = true,
-"   },
-"   filters = {
-"     dotfiles = true,
-"   },
-" })
-" --------------------------------------
-
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'flazz/vim-colorschemes'
-Plugin 'junegunn/goyo.vim'             " zen mode for writing
-Plugin 'vim-airline/vim-airline'       " cool statusbar
-Plugin 'mg979/vim-visual-multi'        " Select like in in Sublime/VSC
-Plugin 'mhinz/vim-startify'            " Fancy Start screen
