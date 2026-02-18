@@ -1,2 +1,50 @@
-" nvim ~/.config/nvim/init.lua
+" @j69 nvim config
+" touch  ~/.config/nvim/init.lua
+" curl --create-dirs -fLo ~/.local/share/nvim/site/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+" or
+" sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+" nvim ~/.config/nvim/init.lua and save and run :PluginInstall
+"""""""""""""""""""""""""""""""""""""""""""""""""""""
+local vim = vim
+local Plug = vim.fn['plug#']
 
+vim.call('plug#begin')
+
+vim.call('plug#end')
+
+vim.wo.number = true
+vim.g.mouse = 'a'
+vim.opt.encoding="utf-8"
+vim.opt.swapfile = false
+
+vim.opt.scrolloff = 7
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.autoindent = true
+
+vim.opt.fileformat = "unix"
+
+" ---------------------------------
+
+
+
+set nocompatible                  " be iMproved, required
+filetype off                      " required
+set rtp+=~/.vim/bundle/Vundle.vim " set path to include Vundle
+call vundle#begin()               " initialize Vundle
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'junegunn/goyo.vim'             " zen mode for writing
+Plugin 'vim-airline/vim-airline'       " cool statusbar
+Plugin 'mg979/vim-visual-multi'        " Select like in in Sublime/VSC
+Plugin 'mhinz/vim-startify'            " Fancy Start screen
+
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+
+set guifont=Monaco:h18
+colorscheme OceanicNext
+" autocmd VimEnter * Goyo       " autorun Goyo plugin when start               
