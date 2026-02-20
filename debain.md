@@ -9,9 +9,6 @@
 * sudo apt --reinstall install xfce4-panel
 * or remove ~/.config/xfce4/panel
 
-## Also you can install Software center
-* sudo apt install gnome-software
-
 ## Add Panel Plugins
 * sudo apt install xfce4-pulseaudio-plugin xfce4-eyes-plugin xfce4-xkb-plugin
 
@@ -29,6 +26,9 @@
 
 ## modify new file context menu (right mouse) 
 * touch ~/Templates/new_file.md
+
+## Also you can install Gnome Software center
+* sudo apt install gnome-software
 
 ## Install Solitare & Chess
 * sudo apt install aisleriot gnome-chess
