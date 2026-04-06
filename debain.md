@@ -9,6 +9,10 @@
 * sudo apt --reinstall install xfce4-panel
 * or remove ~/.config/xfce4/panel
 
+## Install Chicago95 theme - XFCE Windows 95
+[//github.com/grassmunk/chicago95](//github.com/grassmunk/chicago95)
+
+
 ## Add Panel Plugins
 * sudo apt install xfce4-pulseaudio-plugin xfce4-eyes-plugin xfce4-xkb-plugin
 
